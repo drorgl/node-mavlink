@@ -4,6 +4,8 @@
   "description": "Encode and decode MAVLink messages",
   "main": "src/mavlink.js",
   "scripts": {
+    "demo": "ts-node main.ts",
+    "tslint": "tslint -c tslint.json './src/**/*.ts'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +17,15 @@
     "mavlink"
   ],
   "dependencies": {
-	"xml2js": ""
+    "@types/node": "^7.0.14",
+    "@types/xml2js": "0.0.33",
+    "typescript": "^2.3.2",
+    "xml2js": ""
+  },
+  "devDependencies": {
+    "serialport": "^4.0.7",
+    "@types/serialport": "^4.0.9",
+    "ts-node": "^3.0.2"
   },
   "author": "Owen McAree",
   "license": "BSD",
