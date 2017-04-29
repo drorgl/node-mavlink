@@ -2,8 +2,10 @@
   "name": "mavlink",
   "version": "1.0.1",
   "description": "Encode and decode MAVLink messages",
-  "main": "src/mavlink.js",
+  "main": "dist/mavlink.js",
+  "types": "dist/mavlink.d.ts",
   "scripts": {
+    "install" : "tsc",
     "demo": "ts-node main.ts",
     "tslint": "tslint -c tslint.json './src/**/*.ts'",
     "test": "echo \"Error: no test specified\" && exit 1"
