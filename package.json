@@ -30,6 +30,9 @@
     "ts-node": "^3.0.2"
   },
   "author": "Owen McAree",
+  "contributors": [
+    "Dror Gluska <drorgl@yahoo.com>"
+  ],
   "license": "BSD",
   "readmeFilename": "Readme.md",
   "gitHead": "c30f8a63ca6a1ebc1669fefcd07bb3780540e41b"
